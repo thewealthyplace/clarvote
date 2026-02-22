@@ -1,0 +1,15 @@
+[project]
+name = "clarvote"
+requirements = []
+
+[contracts.clarvote-token]
+path = "contracts/clarvote-token.clar"
+
+[contracts.clarvote-delegation]
+path = "contracts/clarvote-delegation.clar"
+
+[contracts.clarvote-voting-power]
+path = "contracts/clarvote-voting-power.clar"
+
+[contracts.clarvote-override]
+path = "contracts/clarvote-override.clar"
