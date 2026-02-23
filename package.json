@@ -4,7 +4,7 @@
   "description": "On-chain governance and voting DAO built with Clarity on Stacks",
   "scripts": {
     "test": "vitest run",
-    "deploy:testnet": "ts-node scripts/deploy-delegation.ts",
+    "deploy:guardian": "ts-node scripts/deploy-guardian.ts",
     "check": "clarinet check",
     "clarinet:test": "clarinet test"
   },
