@@ -1,0 +1,28 @@
+{
+  "name": "clarvote",
+  "version": "1.0.0",
+  "description": "On-chain governance and voting DAO built with Clarity on Stacks",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "vitest run",
+    "check": "clarinet check",
+    "clarinet:test": "clarinet test"
+  },
+  "dependencies": {
+    "@stacks/connect": "^7.3.0",
+    "@stacks/connect-react": "^7.3.0",
+    "@stacks/network": "^6.13.0",
+    "@stacks/transactions": "^6.17.0",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@hirosystems/clarinet-sdk": "^2.3.0",
+    "@testing-library/react": "^14.2.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  },
+  "license": "MIT"
+}
