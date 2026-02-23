@@ -1,0 +1,12 @@
+[project]
+name = "clarvote"
+requirements = []
+
+[contracts.clarvote-guardian]
+path = "contracts/clarvote-guardian.clar"
+
+[contracts.clarvote-refund]
+path = "contracts/clarvote-refund.clar"
+
+[contracts.clarvote-cancellation-log]
+path = "contracts/clarvote-cancellation-log.clar"
